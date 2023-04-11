@@ -1,0 +1,125 @@
+body {
+    background: linear-gradient(to top,#1d99af,#1d99af,#167d8f,#1a90a5,#72cbdb,#ffffff,#ffffff );
+    font-family: 'Montserrat';
+}
+
+.contenedor{
+    width: 94%;
+    margin: 0 auto;
+}
+.headerPrincipal{
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+.headerPrincipal-titulo{
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color:#727374;
+}
+.contenidoPrincipal{
+    padding: 50px 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.textarea {
+    width: 550px;
+    height: 200px;
+    resize: none;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    opacity: 0.4;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.textarea::placeholder{
+    color:#000;
+    text-align: center;
+
+}
+.contenedor .img-flechas{
+    width: 8%;
+    opacity: .5;
+}
+.contenedor-parrafo{
+    width: 94%;
+    margin: 0 auto;
+}
+.contenedor-parrafo p{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color:#171718;
+}
+.contenedor-parrafo i{
+    margin: 0 10px 0 ;
+    color: #631313;
+}
+.contenedor-botones{
+    width: 94%;
+    margin: 0 auto;
+}
+.contenedor-botones button{
+    cursor: pointer;
+    border-radius: 1em;
+    border: none;
+    padding: 1.3rem 6.5rem;
+    font-size: 22px;
+    font-weight: bold;
+}
+.btnEncriptar{
+    margin: 25px;
+    background: #1d99af;
+    color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btnEncriptar:hover{
+    background:#ffffff;
+    color: #1d99af;
+    transition: 1.5;;
+}
+.btnDesencriptar{
+    background: #1d99af;
+    color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btnDesencriptar:hover{
+    background:#ffffff;
+    color: #1d99af;
+    transition: 1.5;
+}
+.btnCopiar{
+    background: #114dcf;
+    color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btnCopiar:hover{
+    background:#ffffff;
+    color: #114dcf;
+    transition: 1.5;
+}
+footer div{
+    margin: -2.9rem 0 1rem 5rem;
+}
+footer p{
+    font-weight: bold;
+    font-size: 15px;
+}
+@media (max-width: 768px) {
+    
+    .headerPrincipal-titulo {
+        margin: 20px;
+    }
+    .contenedor .img-flechas{
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+

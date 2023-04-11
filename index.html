@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexbox.css">
+    <!--Link icono-->
+    <script src="https://kit.fontawesome.com/7ed6c53065.js" crossorigin="anonymous"></script>
+    <!--Fuentes-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap" rel="stylesheet">
+    <title>Encriptador-Desencriptador</title>
+</head>
+<body>
+    <header class="headerPrincipal">
+        <div class="contenedor">
+            <img class="logo" src="imagenes/alura logo.svg" alt="" class="logo">
+            <h1 class="headerPrincipal-titulo">
+                Encriptador-Desencriptador
+            </h1>
+        </div>
+    </header>
+    <main class="contenidoPrincipal">
+        <div class="contenedor">
+            <textarea id="textareaEncriptar" class="textarea" cols="30" rows="10" placeholder="Ingrese Texto"></textarea>
+            <img class="img-flechas" src="imagenes/flechas.png" alt="flechas">
+            <textarea id="textareaDesencriptar" class="textarea" cols="30" rows="10"></textarea>
+        </div>
+        <div></div>
+        <div class="contenedor-parrafo">
+            <p><i class="fa-solid fa-circle-exclamation"></i>Solo letras minúsculas y sin acentos</p> 
+        </div>
+        <div class="contenedor-botones">
+            <button id="btnEncriptar" class="btnEncriptar">Encriptar</button>
+            <button id="btnDesencriptar" class="btnDesencriptar">Desencriptar</button>
+            <button class="btnCopiar">Copiar</button>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p class="autor">Copyright &copy; 2023 by Martin Rangel Ortega</p></a>
+        </div>
+    </footer>
+    <script src="Script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.headerPrincipal .contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+}
+.contenidoPrincipal .contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contenedor-botones {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+.btnCopiar {
+    margin-left: auto; 
+}
+
+@media(max-width: 768px){
+    .headerPrincipal .contenedor{
+        flex-direction: column;
+    }
+    .contenidoPrincipal .contenedor{
+        flex-direction: column;
+    }
+    .contenedor-botones{
+        flex-direction: column;
+		align-items: initial;
+		text-align: center;
+    }
+    .btnCopiar{
+        margin: 25px 25px 25px ;
+    }
+}
+
+
+
